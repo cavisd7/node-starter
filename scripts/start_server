@@ -1,0 +1,5 @@
+#!/bin/bash
+export PATH=/home/ec2-user/.nvm/versions/node/v16.0.0/bin/npm:$PATH
+cd /home/ec2-user/test-app
+which npm
+npm start
